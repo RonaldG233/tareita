@@ -1,0 +1,35 @@
+:root {
+    /* Variables generales */
+    --card-padding-1: 20px;
+    --card-padding-2: 15px;
+    --card-border-radius-1: 15px;
+    --card-border-radius-2: 25px;
+    --card-shadow-1: 0 4px 8px rgba(0, 0, 0, 0.2);
+    --card-shadow-2: 0 6px 12px rgba(0, 0, 0, 0.3);
+    --font-weight-bold: bold;
+    --text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    --button-primary-bg-color: #007bff;
+    --button-secondary-bg-color: #6c757d;
+    --button-success-bg-color: #28a745;
+    --hover-bg-color: #f0f0f0;
+    --border-radius-rounded: 30px;
+    --list-item-border: 1px solid #ddd;
+    --list-item-padding: 10px;
+
+    
+
+    --celeste: #23f3f3;
+    --blanco: #fff;
+    --negro: #000;
+    --mordado: #b50edf;
+    --rosa:#fd0a90;
+    --azul:#1302ff;
+    --moradoclaro:#ff00f2;
+    --verde:#0a8128;
+    --gris:#d4d4d4;
+
+
+    --borde1:20px
+
+
+}
