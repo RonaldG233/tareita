@@ -1,0 +1,328 @@
+:root {
+    --info-bg-color: #3498db;
+    --info-border-color: #2980b9;
+    --info-text-color: #ffffff;
+    --info-hover-text-color: #b3d4fc;
+
+    --warning-bg-color: #f39c12;
+    --warning-border-color: #e67e22;
+    --warning-text-color: #ffffff;
+    --warning-hover-text-color: #ffd700;
+
+    --success-bg-color: #2ecc71;
+    --success-border-color: #27ae60;
+    --success-text-color: #ffffff;
+    --success-hover-text-color: #a3e4d7;
+
+    --danger-bg-color: #e74c3c;
+    --danger-border-color: #c0392b;
+    --danger-text-color: #ffffff;
+    --danger-hover-text-color: #f1948a;
+
+    --link-color: #ffffff;
+    --link-hover-color: #dddddd;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.alert {
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert-info {
+    background-color: var(--info-bg-color);
+    border-color: var(--info-border-color);
+    color: var(--info-text-color);
+    border-radius: 10px;
+}
+
+.alert-warning {
+    background-color: var(--warning-bg-color);
+    border-color: var(--warning-border-color);
+    color: var(--warning-text-color);
+}
+
+.alert-success {
+    background-color: var(--success-bg-color);
+    border-color: var(--success-border-color);
+    color: var(--success-text-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.alert-danger {
+    background-color: var(--danger-bg-color);
+    border-color: var(--danger-border-color);
+    color: var(--danger-text-color);
+}
+
+.alert-text:hover {
+    color: var(--link-hover-color);
+}
+
+.alert-info .alert-text:hover {
+    color: var(--info-hover-text-color);
+}
+
+.alert-warning .alert-text:hover {
+    color: var(--warning-hover-text-color);
+}
+
+.alert-success .alert-text:hover {
+    color: var(--success-hover-text-color);
+}
+
+.alert-danger .alert-text:hover {
+    color: var(--danger-hover-text-color);
+}
+
+.alert-link {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+.alert-link:hover {
+    color: var(--link-hover-color);
+}
+
+
+
+
+
+
+
+:root {
+    --info-bg-color: #3498db;
+    --info-border-color: #2980b9;
+    --info-text-color: #ffffff;
+    --info-hover-text-color: #b3d4fc;
+
+    --warning-bg-color: #f39c12;
+    --warning-border-color: #e67e22;
+    --warning-text-color: #ffffff;
+    --warning-hover-text-color: #ffd700;
+
+    --success-bg-color: #2ecc71;
+    --success-border-color: #27ae60;
+    --success-text-color: #ffffff;
+    --success-hover-text-color: #a3e4d7;
+
+    --danger-bg-color: #e74c3c;
+    --danger-border-color: #c0392b;
+    --danger-text-color: #ffffff;
+    --danger-hover-text-color: #f1948a;
+
+    --link-color: #ffffff;
+    --link-hover-color: #dddddd;
+
+    --btn-primary-bg: #007bff;
+    --btn-secondary-bg: #6c757d;
+    --btn-text-color: #ffffff;
+
+    --border-radius: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    margin: 0;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.card {
+    border: 2px solid;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-header, .card-footer {
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-bottom: 2px solid;
+}
+
+.card-footer {
+    border-top: 2px solid;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-text {
+    margin: 10px 0;
+}
+
+.list-group {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-group-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: var(--btn-text-color);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: var(--btn-primary-bg);
+}
+
+.btn-secondary {
+    background-color: var(--btn-secondary-bg);
+}
+
+.alert-info {
+    background-color: var(--info-bg-color);
+    border-color: var(--info-border-color);
+    color: var(--info-text-color);
+}
+
+.alert-warning {
+    background-color: var(--warning-bg-color);
+    border-color: var(--warning-border-color);
+    color: var(--warning-text-color);
+}
+
+.alert-success {
+    background-color: var(--success-bg-color);
+    border-color: var(--success-border-color);
+    color: var(--success-text-color);
+}
+
+.alert-danger {
+    background-color: var(--danger-bg-color);
+    border-color: var(--danger-border-color);
+    color: var(--danger-text-color);
+}
+
+.alert-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.alert-text:hover {
+    color: var(--link-hover-color);
+}
+
+.alert-info .alert-text:hover {
+    color: var(--info-hover-text-color);
+}
+
+.alert-warning .alert-text:hover {
+    color: var(--warning-hover-text-color);
+}
+
+.alert-success .alert-text:hover {
+    color: var(--success-hover-text-color);
+}
+
+.alert-danger .alert-text:hover {
+    color: var(--danger-hover-text-color);
+}
+
+.alert-link {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+.alert-link:hover {
+    color: var(--link-hover-color);
+}
+
+/* Estilos adicionales para los requisitos específicos */
+
+.hover-effect:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.rounded-border {
+    border-radius: 20px;
+}
+
+.bold-text .card-title, 
+.bold-text .card-text {
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.random-style {
+    border-radius: 20px;
+    border-color: #6c757d;
+    background-color: #333;
+    color: #fff;
+}
+
+.random-style .card-header {
+    background-color: #444;
+}
+
+.random-style .card-footer {
+    background-color: #555;
+}
+
+

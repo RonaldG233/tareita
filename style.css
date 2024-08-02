@@ -1,0 +1,73 @@
+@import url(variable.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto Mono", monospace;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+    background-color: #FFF;
+    justify-content: center;
+
+    
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.alerta0{
+    font-weight: 300px;
+    color: var(--negro);
+    margin: 0 auto;
+    padding: 12px;
+    background-color: var(--blanco);
+    border: var(--negro);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 300px;
+}
+.alerta_1{
+    
+    
+    background-color: var(--verde);
+    padding: 12px;
+    border: solid 8px var(--blanco);
+    border-radius: 5px;
+    margin:0 auto;
+    
+    
+    font-weight: 300px;
+    color: var(--negro);
+    box-shadow: 4px 14px 25px var(--verde);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+
+}
+
+.alerta-link{
+    color: var(--violeta);
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--tiempo);
+
+}
+
+.alerta_1:hover{
+    background-color:var(--blanco) ;
+    border:solid 8px var(--verde);
+    color: var(--morado);
+    box-shadow: 4px 14px 25px var(--negro);
+}
+
+.alerta-link:hover{
+    background-color: var(--rojo);
+    color:var(--blanco);
+}
+
+
